@@ -37,3 +37,59 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   align-content: center;
  }
+
+ .descriptionText{
+  font-size:x-large;
+  margin:30px;
+ }
+
+ .loginInput{
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(84, 93, 85, 0.62);
+  color:white;
+  margin:5px;
+  text-align: center;
+  font-style: italic;
+ }
+
+ .loginInput::placeholder{
+  color:white;
+ }
+
+ .loginInput:focus{
+  outline: none;
+  background-color: rgba(128, 142, 130, 0.62);
+ }
+
+ .mainButton{
+  height: 35px;
+  width: 150px;
+  border:none;
+  border-radius: 35px;
+  margin:5px;
+  color:rgba(67, 57, 32, 1);
+  background-color: rgba(185, 147, 77, 1);
+ }
+
+ .mainButton:hover{
+  background-color: rgba(252, 221, 164, 1);
+ }
+
+ .mainButton:active{
+  background-color: rgba(222, 158, 39, 1);
+ }
+
+ .linkButton{
+  border:none;
+  background-color: transparent;
+  color:white;
+  font-style: italic;
+  margin-top: 30px;
+ }
+
+ .linkButton:hover{
+  text-decoration: underline;
+ }
