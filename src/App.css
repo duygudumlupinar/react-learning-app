@@ -110,10 +110,10 @@
 
  .stylizedListButtons{
   flex-basis:25% ;
-  margin:50px;
+  margin:30px;
   background-image: url("./resources/background_blurred.JPG");
   border-radius: 30px;
-  height:150px;
+  height:200px;
   color:white;
   font-size: large;
   text-transform: uppercase;
@@ -128,4 +128,15 @@
  .stylizedListButtons:active{
   background-image: url("./resources/background_blurred.JPG");
   -webkit-filter:contrast(150%);
+ }
+
+ .backgroundQuestion{
+  background-image: url("./resources/background_question.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:auto;
+  height: 600px;
+  width: 800px;
+  border-radius: 30px;
+  margin-left: 20vw;
  }

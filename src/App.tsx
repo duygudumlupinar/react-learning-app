@@ -4,6 +4,7 @@ import "./components/Login";
 import Login from "./components/Login";
 import SignIn from "./components/SignIn";
 import Courses from "./components/Courses";
+import Question from "./components/Question";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,15 +12,18 @@ function App() {
   let isEntryPage = false;
 
   return (
-    <div>
-      {isEntryPage ? (
-        <div className="backgroundIntroPage">
-          {isloggedIn && <Login />}
-          {!isloggedIn && <SignIn />}
-        </div>
-      ) : (
-        <Courses />
-      )}
+    // <div>
+    //   {isEntryPage ? (
+    //     <div className="backgroundIntroPage">
+    //       {isloggedIn && <Login />}
+    //       {!isloggedIn && <SignIn />}
+    //     </div>
+    //   ) : (
+    //     <Courses />
+    //   )}
+    // </div>
+    <div className="backgroundContentPage">
+      <Question />
     </div>
   );
 }
