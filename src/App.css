@@ -3,6 +3,8 @@
   padding: 0;
   text-align: center;
   height: 100%;
+  color:white; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .backgroundIntroPage{ 
@@ -33,8 +35,6 @@
   width: 800px;
   box-shadow: rgba(0, 0, 0, 1) 25px 25px 50px; border-radius: 20px;
   /*content*/
-  color:white; 
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   align-content: center;
  }
 
@@ -139,4 +139,26 @@
   width: 800px;
   border-radius: 30px;
   margin-left: 20vw;
+  align-content: center;
+ }
+
+ .optionsArea{
+  justify-content: center;
+  display:flex;
+  flex-wrap: wrap;
+ }
+
+ .optionButton{
+  flex-basis: 40%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(84, 93, 85, 0.62);
+  color:white;
+  margin:5px;
+  text-align: center;
+  font-style: italic;
+ }
+ .optionButton:hover{
+  
  }
